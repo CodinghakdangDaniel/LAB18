@@ -21,7 +21,7 @@ body {
 }
 
 .container2 {
-    background: linear-gradient(to bottom, #66ffcc 0%, #009999 100%);
+    background-image: linear-gradient(to left top, #193763, #006293, #008d98, #00b46a, #8fcf00);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -42,22 +42,51 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 30px;
-    padding-top: 40px;
+    gap: 20px;
+    padding-top: 60px;
 }
 
-.temperature {
+.temp {
     font-family: 'Roboto', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
 }
 
 .city-name {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 
-#footer-left {
-    top: 20%;
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 120px;
+    gap: 10px;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+}
+
+.humidity,
+.wind-speed {
+    color: white;
+    font-size: 20px;
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+#img1 {
+    width: 130px;
+    height: 130px;
 }
